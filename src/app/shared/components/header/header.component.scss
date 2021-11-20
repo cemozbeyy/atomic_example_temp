@@ -1,13 +1,19 @@
-.d-flex-set {
+.header {
     display: flex;
     margin-right: 35px;
     height: 55px;
     justify-content: flex-end;
-    .name-img {
+    &--name {
         margin-right: 10px !important;
         width: 40px;
         height: 40px;
         margin: auto;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #0cd4f5;
+        align-items: center;
     }
     .arrow-set {
         position: absolute;

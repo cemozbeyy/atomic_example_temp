@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 
-type TextType = 'default' | 'cyan' | 'grey' | 'title';
+type TextType = 'default' | 'cyan' | 'grey' | 'title' | 'white';
 
 @Component({
   selector: 'app-texts',
