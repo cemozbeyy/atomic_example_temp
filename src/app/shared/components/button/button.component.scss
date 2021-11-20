@@ -1,0 +1,51 @@
+.app-btn {
+  height: 45px;
+  background: #f3f5f9;
+  border: 1px solid #f3f5f9;
+  display: flex;
+  align-items: center;
+  padding: 0 43px;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.2s;
+  position: relative;
+  justify-content: center;
+
+  $button-colors: (
+    "primary": #0cd4f5,
+    "success": #03e98d,
+    "orange": #ff5700,
+  );
+
+  @each $key, $color in $button-colors {
+    &__#{$key} {
+      background: $color;
+      border-color: $color;
+      color: white;
+      box-shadow: 0 5px 15px rgba($color: $color, $alpha: 0.49);
+
+      &:hover {
+        background: darken($color: $color, $amount: 3);
+        border-color: darken($color: $color, $amount: 3);
+      }
+    }
+  }
+
+  &--icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &__left {
+      left: 12px;
+    }
+
+    &__right {
+      right: 12px;
+    }
+  }
+
+  &__block {
+    width: 100%;
+  }
+}
