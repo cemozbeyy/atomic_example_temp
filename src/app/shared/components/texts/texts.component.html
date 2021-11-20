@@ -1,6 +1,6 @@
 <p class="texts texts__{{ type }}" [ngClass]="{'texts--h3': h3,'texts--center':center,'texts--fontWeight':fontWeight}" >
-    <img [src]="'/assets/img/' + leftIcon + '.svg'" [alt]="leftIcon" class="app-btn--icon app-btn--icon__left">
+    <img [src]="'/assets/img/' + leftIcon + '.svg'" [alt]="leftIcon" class="texts--icon texts--icon__left">
     <ng-content></ng-content>
-    <img [src]="'/assets/img/' + rightIcon + '.svg'" [alt]="rightIcon" class="texts--icon texts--icon__right">
+    <img [src]="'/assets/img/' + rightIcon + '.svg'" [alt]="rightIcon" class="texts--icon texts--icon__right" >
 </p>
   
