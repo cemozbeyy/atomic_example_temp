@@ -9,6 +9,7 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { IndexComponent } from './shared/pages/main/index.component';
 import { ButtonComponent } from './shared/components/button/button.component';
 import { TextsComponent } from './shared/components/texts/texts.component';
+import { MiddleSelectorComponent } from './shared/pages/main/components/middle-selector/middle-selector.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TextsComponent } from './shared/components/texts/texts.component';
     TextsComponent,
     HeaderComponent,
     IndexComponent,
-    ButtonComponent
+    ButtonComponent,
+    MiddleSelectorComponent
   ],
   imports: [
     BrowserModule,
