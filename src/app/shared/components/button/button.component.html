@@ -1,4 +1,4 @@
-<button class="app-btn app-btn__{{ type }}" [ngClass]="{'app-btn__block': block}">
+<button class="app-btn app-btn__{{ type }} app-btn__{{textColor}}" [ngClass]="{'app-btn__block': block,'app-btn--non-effect':noEffect}">
   <img [src]="'/assets/img/' + leftIcon + '.svg'" [alt]="leftIcon" class="app-btn--icon app-btn--icon__left">
 
   <ng-content></ng-content>

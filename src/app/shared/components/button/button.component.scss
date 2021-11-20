@@ -15,13 +15,22 @@
     "primary": #0cd4f5,
     "success": #03e98d,
     "orange": #ff5700,
+    "default": transparent,
   );
-
+  $text-colors: (
+    "grey": #6e707f,
+    "white": #fff,
+    "black": #000,
+  );
+  @each $textkey, $textcolor in $text-colors {
+    &__#{$textkey} {
+      color: $textcolor;
+    }
+  }
   @each $key, $color in $button-colors {
     &__#{$key} {
       background: $color;
       border-color: $color;
-      color: white;
       box-shadow: 0 5px 15px rgba($color: $color, $alpha: 0.49);
 
       &:hover {
@@ -29,6 +38,10 @@
         border-color: darken($color: $color, $amount: 3);
       }
     }
+  }
+  &--non-effect {
+    box-shadow: none !important;
+    border-color: transparent !important;
   }
 
   &--icon {

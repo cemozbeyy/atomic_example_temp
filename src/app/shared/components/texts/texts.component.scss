@@ -1,0 +1,39 @@
+.texts {
+  font-size: 14px;
+  margin-bottom: 0px;
+  $text-colors: (
+    "cyan": #0cd4f5,
+    "grey": #6e707f,
+    "default": #000,
+    "white": #fff,
+  );
+  @each $key, $colors in $text-colors {
+    &__#{$key} {
+      color: $colors;
+    }
+  }
+  &--h3 {
+    font-size: 35px;
+  }
+  &--center {
+    text-align: center;
+  }
+  &--xs {
+    font-size: 12px;
+  }
+  &--fontWeight{
+    font-weight: bold;
+  }
+  &--icon {
+    position: absolute;
+    top: 10px;
+
+    &__left {
+      left: 15px;
+    }
+
+    &__right {
+      right: 35px;
+    }
+  }
+}
