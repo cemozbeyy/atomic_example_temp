@@ -1,0 +1,14 @@
+[
+    {
+      "title": "Traffic to my website",
+      "description": "For receiving as many visitors as possible to your website.",
+      "icon": "traffic-objective-icon.svg",
+      "type": "LINK_CLICKS"
+    },
+    {
+      "title": "Conversions on my website",
+      "description": "For receiving conversions on your website, must have Facebook Pixel installed.",
+      "icon": "conversion-objective-icon.svg",
+      "type": "OFFSITE_CONVERSIONS"
+    }
+]

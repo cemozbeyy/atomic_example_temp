@@ -1,0 +1,18 @@
+.sidenav-width{
+    height: 900px;
+    .height-set{
+        margin:10px 0px 35px 0px;
+        padding: 15px;
+        height: 50px;
+    }
+    .d-flex-settings{
+        display: flex;
+        height:50px;
+        justify-content: space-around;
+        .icon-alignment{
+            position: fixed;
+            left: 40px;margin:8px
+        }
+    }
+    
+}

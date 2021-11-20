@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" width="45" height="45">
+	<title>Yeni Proje</title>
+	<defs>
+		<image  width="45" height="45" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtAQMAAAAA1HDZAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAANSURBVHicY2AYBWQCAAE7AAFZSKC1AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #0cd4f5;stroke: #00dbff } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+	<path id="Rectangle 1234" class="shp0" d="M0 10C0 4.48 4.48 0 10 0L35 0C40.52 0 45 4.48 45 10L45 35C45 40.52 40.52 45 35 45L10 45C4.48 45 0 40.52 0 35L0 10Z" />
+	<path id="EM" class="shp1" d="M18.02 25L18.02 27L11.44 27L11.44 15.58L18.02 15.58L18.02 17.56L13.86 17.56L13.86 20.07L17.73 20.07L17.73 22.05L13.86 22.05L13.86 25L18.02 25ZM27.45 27L25.23 27L22.48 18.04L22.41 18.04C22.51 19.86 22.56 21.08 22.56 21.69L22.56 27L20.4 27L20.4 15.58L23.7 15.58L26.4 24.31L26.45 24.31L29.31 15.58L32.61 15.58L32.61 27L30.35 27L30.35 21.59C30.35 21.34 30.35 21.04 30.36 20.71C30.37 20.38 30.41 19.49 30.47 18.05L30.4 18.05L27.45 27Z" />
+</svg>
