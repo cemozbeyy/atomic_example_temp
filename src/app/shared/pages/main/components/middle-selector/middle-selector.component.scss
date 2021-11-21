@@ -1,0 +1,17 @@
+.middle {
+    background-color: #fff;
+    width: 70vw;
+    height: 70vh;
+    border-radius: 15px;
+    margin: auto;
+    &--top {
+        content: "";
+        width: 85%;
+        height: 20px;
+        display: flex;
+        margin: auto;
+        background-color: #0cd4f5;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+}
