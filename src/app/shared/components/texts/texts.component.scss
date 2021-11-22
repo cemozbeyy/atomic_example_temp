@@ -12,8 +12,16 @@
       color: $colors;
     }
   }
-  &--h3 {
-    font-size: 2.3vw;
+  $text-sizes:(
+    "h1": 3vw,
+    "h2": 2.6vw,
+    "h3": 2.3vw,
+    "defaultSize": 1.1vw,
+  );
+  @each $key, $sizes in $text-sizes {
+    &__#{$key} {
+      font-size: $sizes;
+    }
   }
   &--center {
     text-align: center;
@@ -25,15 +33,7 @@
     font-weight: bold;
   }
   &--icon {
-    position: absolute;
-    top: 10px;
-
-    &__left {
-      left: 15px;
-    }
-
-    &__right {
-      right: 70px;
-    }
+    display: inline-flex;
+    padding-bottom: 5px;
   }
 }
